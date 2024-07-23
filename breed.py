@@ -10,7 +10,7 @@ import cv2
 # st.image(r"E:\innomatics\logo.png", width=200)
 
 # Load the logistic regression model
-model_path = r"F:\Digit Images\model.pkl"
+model_path = r"model.pkl"
 with open(model_path, 'rb') as file:
     model = pickle.load(file)
 
